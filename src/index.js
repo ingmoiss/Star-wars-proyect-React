@@ -7,15 +7,12 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './style/navbar.css'
 import {Obtenerdata} from './store/data'
 
-
+import {Flux} from "./store/flux"
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
-   {/* <Tarjeta /> */}
-  <Obtenerdata />
-  
+      <Flux />
   </React.StrictMode>,
   document.getElementById('root')
 );
